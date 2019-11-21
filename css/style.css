@@ -1,9 +1,10 @@
 #footer {
   text-align: center;
   width: 100%;
-  position: relative;
+  position: absolute;
   height: 5%;
   background-color: rgba(0,0,0,0.2);
+  text-decoration-color: red;
 }
 
 #footer a {

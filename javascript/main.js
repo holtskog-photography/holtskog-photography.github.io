@@ -11,7 +11,7 @@ function aboutScroll(){
   zenscroll.center(item, 3000);
 }
 function topScroll(){
-  var item = document.getElementById("h1");
+  var item = document.getElementById("top");
   zenscroll.toY(0, 3000);
 }
 function imageScroll(){

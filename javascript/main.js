@@ -12,7 +12,7 @@ function aboutScroll(){
 }
 function topScroll(){
   var item = document.getElementById("top");
-  zenscroll.toY(0, 10000);
+  zenscroll.toY(0, 2000);
 }
 function imageScroll(){
   var item = document.getElementById("abt-me");
@@ -36,21 +36,3 @@ function loopDown(){
        });
    }
  loopDown();
-
-function loopDwn(){
-       $("#footer").animate({
-           marginTop : 0
-           },
-           500, function() {
-           loopup();
-       });
-   }
-   function loopup(){
-       $("#footer").animate({
-           marginTop : -10
-           },
-           500, function() {
-           loopDwn();
-       });
-   }
-loopDwn();

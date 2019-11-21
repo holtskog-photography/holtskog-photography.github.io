@@ -12,7 +12,7 @@ function aboutScroll(){
 }
 function topScroll(){
   var item = document.getElementById("top");
-  zenscroll.toY(0, 2000);
+  zenscroll.toY(0, 3000);
 }
 function imageScroll(){
   var item = document.getElementById("abt-me");

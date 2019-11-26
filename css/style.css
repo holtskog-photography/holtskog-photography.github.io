@@ -12,6 +12,14 @@
 
 #main {
   float: right;
+  margin-right: 10%;
+  list-style: none;
+  display: flex;
+  transition: .3s;
+}
+
+#main li a.active {
+  background-color: green;
 }
 
 #main li {
@@ -28,6 +36,27 @@
   text-transform: uppercase;
   background-color: transparent;
   border-radius: 6px;
+}
+
+#main li a:hover {
+  background-color: red;
+}
+
+#styles {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: .3s;
+}
+
+#styles:hover {
+  display: block;
+}
+
+#abt {
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  transition: .3s;
 }
 
 #content {

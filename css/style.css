@@ -49,7 +49,7 @@
   transition: .3s;
 }
 
-#styles:hover {
+#col:hover #styles {
   display: block;
 }
 

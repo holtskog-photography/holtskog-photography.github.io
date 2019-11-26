@@ -19,6 +19,13 @@ function imageScroll(){
   zenscroll.center(item, 2000);
 }
 
+function maxScroll(){
+  if($(window).scrollTop() >=10) 
+  {
+    $(window).scrollTop(0);
+  }
+}
+
 function loopDown(){
        $("#to-top").animate({
            marginTop : -10

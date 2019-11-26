@@ -1,9 +1,14 @@
 #logo {
   width: 7%;
+  float: left;
 }
 
 #navbar {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+#main {
+  float: right;
 }
 
 #content {

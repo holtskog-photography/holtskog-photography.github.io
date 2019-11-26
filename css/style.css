@@ -5,6 +5,8 @@
 
 #navbar {
   background-color: rgba(0, 0, 0, 0.5);
+  height: 10%;
+  width: 100%;
 }
 
 #main {

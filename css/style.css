@@ -24,8 +24,8 @@
 
 #main li {
   list-style: none;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #main li a {
@@ -67,13 +67,6 @@
 #top {
   color: rgba(0, 0, 0, 0.4);
   height: 100%;
-}
-
-#plus {
-  position: relative;
-  margin-right: auto;
-  padding: 10px;
-  padding-bottom: 30px;
 }
 
 #footer {

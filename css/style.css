@@ -12,7 +12,7 @@
 
 #main {
   float: right;
-  margin-right: 10%;
+  margin-right: 5%;
   list-style: none;
   display: flex;
   transition: .3s;
@@ -24,12 +24,12 @@
 
 #main li {
   list-style: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #main li a {
-  line-height: 60px;
+  line-height: 100%;
   color: #fff;
   padding: 12px 25px;
   text-decoration: none;

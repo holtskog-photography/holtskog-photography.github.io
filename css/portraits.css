@@ -1,0 +1,183 @@
+* {box-sizing:border-box}
+
+/* Basic page */
+#test-img {
+  width: 101.2%;
+  margin-left: -0.6%;
+  margin-top: -0.6%;
+}
+
+#logo {
+  height: 90%;
+  margin-top: 0.2%;
+  margin-left: 0.2%;
+  float: left;
+  transition: .3s;
+}
+
+#navbar {
+  height: 6.5%;
+  width: 101.2%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: .3s;
+  margin-left: -0.6%;
+  /*margin-top: -0.6%;*/
+}
+
+#main {
+  float: right;
+  margin-right: 2%;
+  list-style: none;
+  display: flex;
+  transition: .3s;
+  margin-top: 0.03%;
+}
+
+#main li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#main li a {
+  line-height: 60px;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+#main li a.active {
+  background-color: rgba(55, 125, 34, 0.8);
+}
+
+#styles {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: .3s;
+  margin-top: -0.05%;
+}
+
+#main li a:hover {
+  background-color: rgba(235, 51, 35, 0.5);
+}
+
+#col:hover #styles{
+  display: block;
+}
+
+#header {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#top {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 101.2%;
+  margin-left: -0.6%;
+  margin-top: -0.6%;
+}
+
+#footer {
+  text-align: center;
+  width: 101.2%;
+  margin-left: -0.6%;
+  position: absolute;
+  height: 5%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  position: static;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  position: static;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: static;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
